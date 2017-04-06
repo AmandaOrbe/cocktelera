@@ -1,0 +1,26 @@
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.title {
+  font-size: 38px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.motto {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
